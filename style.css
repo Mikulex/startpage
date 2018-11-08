@@ -1,0 +1,47 @@
+body {
+    background: rgb(56, 71, 79);
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font: 6em "Meiryo";
+    margin-top: 40px;
+}
+
+#time{
+    font: 300 6em 'Lato';
+}
+
+#date {
+    font: 100 2em 'Lato';
+    margin: -15px 0px 0px 0px;
+    
+}
+#container {
+    padding: 25px;
+    text-align: center;
+    margin: 0% auto;
+    width: 950px;
+    height: 600px;
+    background-color: rgb(35, 44, 49);
+}
+
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    width: px;
+}
+
+a:link {
+    color: lightgrey;
+}
+
+a:visited {
+    color: lightgrey;
+}
+a:hover {
+    color: white;
+}
+
