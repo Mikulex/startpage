@@ -3,10 +3,14 @@ body {
     color: white;
 }
 
+#header {
+    padding: 10px;
+}
+
 #title {
     text-align: center;
     font: 6em "Meiryo";
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #time{
@@ -14,34 +18,45 @@ body {
 }
 
 #date {
-    font: 100 2em 'Lato';
-    margin: -15px 0px 0px 0px;
-    
+    font: 300 2em 'Lato';
+    margin: -10px 0px 0px 0px;
 }
+
 #container {
     padding: 25px;
     text-align: center;
-    margin: 0% auto;
-    width: 950px;
-    height: 600px;
+    margin: 30px auto;
+    width: 1050px;
+    height: 450px;
     background-color: rgb(35, 44, 49);
+    border: solid;
+    border-width: thin;
 }
 
 ul {
-    
+    margin: 35px auto;
+    display: flex;
+    font: 300 1.4em 'Lato';
     list-style-type: none;
     padding: 0;
-    width: px;
 }
 
-a:link {
-    color: lightgrey;
+li{
+    margin: 0px auto;
 }
 
-a:visited {
+a:link, a:visited {
     color: lightgrey;
+    background: rgb(56, 71, 79, 0.2);
+
 }
+
 a:hover {
-    color: white;
+    background: rgb(56, 71, 79, 0.8);
 }
 
+.button {
+    width: 150px;
+    padding: 10px 20px;
+    background: inherit;
+}
