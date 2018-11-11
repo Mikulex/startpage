@@ -10,7 +10,7 @@ body {
 #title {
     text-align: center;
     font: 6em "Meiryo";
-    margin-top: 30px;
+    margin: 30px;
 }
 
 #time{
@@ -25,16 +25,20 @@ body {
 #container {
     padding: 25px;
     text-align: center;
-    margin: 30px auto;
+    margin: 0 auto;
     width: 1050px;
-    height: 450px;
+    height: 480px;
     background-color: rgb(35, 44, 49);
     border: solid;
     border-width: thin;
 }
 
+#items{
+    margin: 40px auto;
+}
+
 ul {
-    margin: 35px auto;
+    margin: 20px auto;
     display: flex;
     font: 300 1.4em 'Lato';
     list-style-type: none;
@@ -48,15 +52,27 @@ li{
 a:link, a:visited {
     color: lightgrey;
     background: rgb(56, 71, 79, 0.2);
+    text-decoration: none;
 
 }
 
-a:hover {
+a:hover, a:focus {
     background: rgb(56, 71, 79, 0.8);
+    outline: none;
 }
 
 .button {
     width: 150px;
     padding: 10px 20px;
     background: inherit;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    background: inherit;
+    color: lightgrey;
+    caret-color: lightgrey;
+    border: none;
+    font: 300 1em 'Lato';
 }
