@@ -37,7 +37,7 @@ body {
     margin: 40px auto;
 }
 
-ul {
+#items ul {
     margin: 20px auto;
     display: flex;
     font: 300 1.4em 'Lato';
@@ -75,4 +75,29 @@ input {
     caret-color: lightgrey;
     border: none;
     font: 300 1em 'Lato';
+}
+
+.commanddiv ul {
+    padding: 0px 20px;
+    position: absolute;
+    margin: 10px;
+    text-align: left;
+    list-style-type: none;
+    background: rgb(35, 44, 49);
+
+}
+
+.favkey, .favlink {
+    padding: 5px;
+    float: left;
+    font: 300 1em 'Lato';
+
+}
+
+.favlink{
+    width: 300px;
+}
+.favkey {
+    width: 50px;
+
 }
