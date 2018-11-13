@@ -36,9 +36,16 @@ $(document).ready(function() {
     // functions to be valled after page finished loading
     $.getJSON("commands.json", function(json) {
         CONF = json;
-    });
+        for(let fav of CONF.links){
+            $("#favs").append('<li><span class="favkey">' + fav.key + '</span><span class="favlink">' + fav.url + '</span></l>');
+        }    });
 
     updateClock();
     updateDate();
     $("#commands").focus();
+
+    $("form").on("submit", function(e){
+        e.preventDefault();
+        window.location.href = CONF.search_engine + $("#commands").val();
+    })
 });
