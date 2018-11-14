@@ -93,6 +93,9 @@ input {
     font: 300 1em 'Lato';
 
 }
+#favs{
+    display: none;
+}
 
 .favlink{
     width: 300px;

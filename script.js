@@ -48,4 +48,14 @@ $(document).ready(function() {
         e.preventDefault();
         window.location.href = CONF.search_engine + $("#commands").val();
     })
+
+    $("#commands").keyup(function(e){
+      var input = $(this).val();
+      if(input.length == 0){
+          $("#favs").slideUp();
+          console.log("empty")
+      } else {
+          $("#favs").slideDown();
+      }
+    })
 });
