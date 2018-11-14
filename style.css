@@ -10,7 +10,7 @@ body {
 #title {
     text-align: center;
     font: 6em "Meiryo";
-    margin: 30px;
+    margin: 15px;
 }
 
 #time{
@@ -76,16 +76,16 @@ input {
     border: none;
     font: 300 1em 'Lato';
 }
-
-.commanddiv ul {
+#favs{
+    display: none;
     padding: 0px 20px;
     position: absolute;
     margin: 10px;
     text-align: left;
     list-style-type: none;
     background: rgb(35, 44, 49);
-
 }
+
 
 .favkey, .favlink {
     padding: 5px;
@@ -93,10 +93,6 @@ input {
     font: 300 1em 'Lato';
 
 }
-#favs{
-    display: none;
-}
-
 .favlink{
     width: 300px;
 }
