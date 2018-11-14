@@ -42,20 +42,42 @@ $(document).ready(function() {
 
     updateClock();
     updateDate();
-    $("#commands").focus();
+    $("#commands").focus(); // focus command bar on load
 
     $("form").on("submit", function(e){
         e.preventDefault();
-        window.location.href = CONF.search_engine + $("#commands").val();
+        var input = $("#commands").val().trim();
+
+        if(input.indexOf(':') == 0){
+            for(let fav of CONF.links){
+                if(fav.key == input) {
+                    window.location.href = fav.url;
+                }
+            }
+        } else {
+            window.location.href = CONF.search_engine + $("#commands").val();
+
+        }
     })
 
     $("#commands").keyup(function(e){
-      var input = $(this).val();
-      if(input.length == 0){
-          $("#favs").slideUp();
-          console.log("empty")
-      } else {
-          $("#favs").slideDown();
-      }
+        var input = $(this).val().trim();
+
+        if(input.length == 0){ // hide commandlist when bar is emtpy
+            $("#favs").slideUp();
+        } else {
+            $("#favs").slideDown();
+        }
+        if(input.indexOf(':') == 0) { //only hide options with leading ':'
+
+            $(".favkey").each(function(){
+                if($(this).html().indexOf(input) < 0){
+                    $(this).parent().fadeOut(200);
+                } else {
+                    $(this).parent().fadeIn(200);
+                }
+            })
+        }
+
     })
 });
