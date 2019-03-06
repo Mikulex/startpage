@@ -1,37 +1,42 @@
 {
-    "search_engine":" https://www.google.com/search?q=",
+    "search_engine":"https://www.google.com/search?q=",
+    "command_key":":",
     "links": [
         {
-            "key":":go",
-            "url":"https://google.com/"
+            "key":"go",
+            "url":"https://google.com"
         },
         {
-            "key":":yt",
-            "url":"https://youtube.com/"
+            "key":"yt",
+            "url":"https://youtube.com"
         },
         {
-            "key":":fb",
-            "url":"https://facebook.com/"
+            "key":"fb",
+            "url":"https://facebook.com"
         },
         {
-            "key":":tw",
-            "url":"https://twitter.com/"
+            "key":"tw",
+            "url":"https://twitter.com"
         },
         {
-            "key":":fr",
-            "url":"https://friedolin.uni-jena.de/"
+            "key":"fr",
+            "url":"https://friedolin.uni-jena.de"
         },
         {
-            "key":":caj",
-            "url":"https://caj.informatik.uni-jena.de/"
+            "key":"caj",
+            "url":"https://caj.informatik.uni-jena.de"
         },
         {
-            "key":":moo",
-            "url":"https://moodle.uni-jena.de/"
+            "key":"moo",
+            "url":"https://moodle.uni-jena.de"
         },
         {
-            "key":":re",
-            "url":"https://reddit.com/"
+            "key":"re",
+            "url":"https://reddit.com"
+        },
+        {
+            "key":"ch",
+            "url":"http://boards.4chan.org"
         }
     ]
 }
