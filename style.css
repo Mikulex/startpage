@@ -9,16 +9,16 @@ body {
 
 #title {
     text-align: center;
-    font: 6em "Meiryo";
+    font: 5vw "Meiryo";
     margin: 15px;
 }
 
 #time{
-    font: 300 6em 'Lato';
+    font: 300 6vw 'Lato';
 }
 
 #date {
-    font: 300 2em 'Lato';
+    font: 300 2vw 'Lato';
     margin: -10px 0px 0px 0px;
 }
 
@@ -26,8 +26,8 @@ body {
     padding: 25px;
     text-align: center;
     margin: 0 auto;
-    width: 1050px;
-    height: 480px;
+    width: 80%;
+    height: 50%;
     background-color: rgb(35, 44, 49);
     border: solid;
     border-width: thin;
@@ -38,11 +38,12 @@ body {
 }
 
 #items ul {
-    margin: 20px auto;
+    margin: 15px auto;
     display: flex;
-    font: 300 1.4em 'Lato';
+    font: 300 1.8vw 'Lato';
     list-style-type: none;
     padding: 0;
+    /*! width:   90%; */
 }
 
 li{
