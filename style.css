@@ -63,7 +63,7 @@ a:hover, a:focus {
 }
 
 .button {
-    width: 150px;
+    width: 10vw;
     padding: 10px 20px;
     background: inherit;
 }
@@ -75,7 +75,7 @@ input {
     color: lightgrey;
     caret-color: lightgrey;
     border: none;
-    font: 300 1em 'Lato';
+    font: 300 1.3vw 'Lato';
 }
 #favs{
     display: none;
