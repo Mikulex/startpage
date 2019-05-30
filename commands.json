@@ -41,5 +41,9 @@
         {
             "key":"wa",
             "url":"https://wadoku.de"
+        },
+        {
+            "key":"ji",
+            "url":"https://jisho.org"
         }
 }
