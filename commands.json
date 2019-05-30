@@ -37,6 +37,9 @@
         {
             "key":"ch",
             "url":"http://boards.4chan.org"
+        },
+        {
+            "key":"wa",
+            "url":"https://wadoku.de"
         }
-    ]
 }
