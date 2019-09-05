@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 
     // functions to be valled after page finished loading
-    $.getJSON("localhost/commands.json", function(json) {
+    $.getJSON("commands.json", function(json) {
         CONF = json;
         for(let fav of CONF.links){
             $("#favs").append('<li><span class="favkey">'
