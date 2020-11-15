@@ -1,6 +1,13 @@
 {
-    "search_engine":"https://www.google.com/search?q=",
     "command_key":":",
+    "lookups": [
+        {   
+            "key:":"/kanji/",
+            "kanji_search":"https://mpi-lingweb.shh.mpg.de/kanji/index.html?kanji="
+        }
+
+    ],
+    "search_engine":"https://www.google.com/search?q=",
     "links": [
         {
             "key":"go",
@@ -37,6 +44,15 @@
         {
             "key":"ch",
             "url":"http://boards.4chan.org"
+        },
+        {
+            "key":"wa",
+            "url":"https://wadoku.de"
+        },
+        {
+            "key":"ji",
+            "url":"https://jisho.org"
         }
+
     ]
 }
