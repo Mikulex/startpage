@@ -18,28 +18,8 @@
             "url":"https://youtube.com"
         },
         {
-            "key":"fb",
-            "url":"https://facebook.com"
-        },
-        {
             "key":"tw",
             "url":"https://twitter.com"
-        },
-        {
-            "key":"fr",
-            "url":"https://friedolin.uni-jena.de"
-        },
-        {
-            "key":"moo",
-            "url":"https://moodle.uni-jena.de"
-        },
-        {
-            "key":"re",
-            "url":"https://reddit.com"
-        },
-        {
-            "key":"ch",
-            "url":"http://boards.4chan.org"
         },
         {
             "key":"wa",
